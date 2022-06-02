@@ -1,12 +1,13 @@
 import './App.css';
-import Home from "./Home/Home";
+import CounterRecoil from './CounterRecoil/CounterRecoil';
 import HomeRecoil from './Recoil/HomeRecoil';
 
 function App() {
   return (
     <div className="App">
-      <Home />
-      <HomeRecoil />
+      {/* <HomeRecoil /> */}
+      <CounterRecoil />
+      <CounterRecoil />
     </div>
   );
 }
